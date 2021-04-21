@@ -1,0 +1,18 @@
+name = "Keyboard"
+uuid = "858d8fc6-8a17-4351-b0d8-f02b91996e92"
+authors = ["johntrinder <johntrinder@users.noreply.github.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
+
+[deps]
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
