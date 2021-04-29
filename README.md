@@ -1,8 +1,9 @@
 Keyboard
 
-A simple suite of Keyboard utilities.
+A simple suite of Keyboard utilities for use in the Julia REPL.
 
 Functions exported are:
+
 readsingleline, readkey, queryrepeat, queryyesno, helpkeyboard, readradiomenu, readmultimenu, setmargin
 
 Read the docstrings for each function in the "../src/Keyboard.jl" file and also the code in the "../test/testkeyboard.jl" file. In VSCode open the "Keyboard" folder and install it as a package.
